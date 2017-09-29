@@ -7,9 +7,9 @@
 
 [Урок 4](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_4 "Знакомство с основами HTML ") - Знакомство с основами HTML 
 
-/*****************
+[Урок 5](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_5 "Знакомство с основами CSS ") - Знакомство с основами CSS 
 
-[Урок 5](https://codepen.io/Kalyaev/pen/qPNzaj?editors=1100 "Знакомство с основами CSS ") - Знакомство с основами CSS 
+/*****************
 
 [Урок 6](https://codepen.io/Kalyaev/pen/VMKGKV?editors=1100 "Позиционирование CSS") - Позиционирование CSS
 
