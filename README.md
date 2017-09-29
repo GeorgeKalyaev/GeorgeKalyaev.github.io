@@ -1,7 +1,8 @@
 # Георгий Каляев
 Мои домашнии задания
 
-[Урок 2](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/my_site/img "Работа с графикой для разработчика") - Работа с графикой для разработчика
+[Урок 2](GeorgeKalyaev.github.io/lesson_2/img/ "Работа с графикой для разработчика") - Работа с графикой для разработчика
+
 /*****************
 [Урок 3](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr3 "Настройка рабочего пространства") - Настройка рабочего пространства
 
@@ -22,4 +23,5 @@
 [Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr11 "Сниппеты ") - Сниппеты 
 
 [Урок 12](адрес "Анкета на GitHub") - Анкета на GitHub
+
 ************************/
