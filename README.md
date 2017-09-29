@@ -9,9 +9,11 @@
 
 [Урок 5](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_5 "Знакомство с основами CSS ") - Знакомство с основами CSS 
 
-/*****************
-
 [Урок 6-1](GeorgeKalyaev.github.io/lesson_6-1/ "Позиционирование CSS") - Позиционирование CSS
+
+[Урок 6-2](GeorgeKalyaev.github.io/lesson_6-2/ "Позиционирование CSS") - Позиционирование CSS
+
+/*****************
 
 [Урок 7](GeorgeKalyaev.github.io/project_7/src/ "Верстка первого макета.") - Верстка первого макета.
 
