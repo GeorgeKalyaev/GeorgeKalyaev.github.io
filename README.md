@@ -15,9 +15,9 @@
 
 [Урок 7](GeorgeKalyaev.github.io/lesson_7/ "Верстка первого макета.") - Верстка первого макета.
 
-/*****************
+[Урок 8](GeorgeKalyaev.github.io/lesson_8/ "Ускорение верстки в разы") - Ускорение верстки в разы
 
-[Урок 8](GeorgeKalyaev.github.io/project_8_27.09.2017/src/ "Ускорение верстки в разы") - Ускорение верстки в разы
+/*****************
 
 [Урок 9](GeorgeKalyaev.github.io/project_9/src/ "Верстка при помощи Bootstrap 3") - Верстка при помощи Bootstrap 3
 
