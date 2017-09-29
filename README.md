@@ -17,9 +17,9 @@
 
 [Урок 8](GeorgeKalyaev.github.io/lesson_8/ "Ускорение верстки в разы") - Ускорение верстки в разы
 
-/*****************
+[Урок 9](GeorgeKalyaev.github.io/lesson_9/ "Верстка при помощи Bootstrap 3") - Верстка при помощи Bootstrap 3
 
-[Урок 9](GeorgeKalyaev.github.io/project_9/src/ "Верстка при помощи Bootstrap 3") - Верстка при помощи Bootstrap 3
+/*****************
 
 [Урок 10](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/blob/master/main.less "Препроцессор LESS для CSS") - Препроцессор LESS для CSS
 
