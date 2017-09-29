@@ -1,0 +1,27 @@
+ .head{
+  background: black;
+  height: 60px;
+   width: 100%;
+   position: fixed;
+   left: 0;
+   top:0;
+}
+
+.head-ul li {
+  list-style: none;
+  display: inline-block;
+  
+}
+.mar-top{
+  
+  margin-top: 70px;
+}
+.head-ul li a{
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px 0px 20px;
+}
+
+.head-ul li a:hover{
+  color: red;
+}
