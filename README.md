@@ -2,7 +2,7 @@
 Мои домашнии задания
 
 [Урок 2](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/my_site/img "Работа с графикой для разработчика") - Работа с графикой для разработчика
-
+/*****************
 [Урок 3](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr3 "Настройка рабочего пространства") - Настройка рабочего пространства
 
 [Урок 4](https://codepen.io/Kalyaev/pen/KXzRWy?editors=1000 "Знакомство с основами HTML ") - Знакомство с основами HTML 
@@ -22,3 +22,4 @@
 [Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr11 "Сниппеты ") - Сниппеты 
 
 [Урок 12](адрес "Анкета на GitHub") - Анкета на GitHub
+************************/
