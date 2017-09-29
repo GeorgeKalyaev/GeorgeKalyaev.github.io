@@ -19,9 +19,9 @@
 
 [Урок 9](GeorgeKalyaev.github.io/lesson_9/ "Верстка при помощи Bootstrap 3") - Верстка при помощи Bootstrap 3
 
-/*****************
+[Урок 10](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_10 "Препроцессор LESS для CSS") - Препроцессор LESS для CSS
 
-[Урок 10](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/blob/master/main.less "Препроцессор LESS для CSS") - Препроцессор LESS для CSS
+/*****************
 
 [Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr11 "Сниппеты ") - Сниппеты 
 
