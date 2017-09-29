@@ -23,8 +23,4 @@
 
 [Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_11 "Сниппеты ") - Сниппеты 
 
-/*****************
-
-[Урок 12](адрес "Анкета на GitHub") - Анкета на GitHub
-
-************************/
+[Урок 12](https://georgekalyaev.github.io/ "Хостинг от GitHub") - Хостинг от GitHub
