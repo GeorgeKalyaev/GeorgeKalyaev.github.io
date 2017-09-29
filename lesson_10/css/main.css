@@ -1,0 +1,137 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'museo_reg', sans-serif;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.feedback-forms-all {
+  padding: 6rem 0 9rem 0;
+}
+.section-title {
+  margin-bottom: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'museo_bold', sans-serif;
+  font-size: 3rem;
+  color: #1b1b1b;
+}
+.section-title .upper-icon-wrapper::before {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  margin-bottom: 15px;
+  background-color: #5ba2a9;
+}
+.section-title .upper-icon-wrapper::after {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  margin-bottom: 15px;
+  background-color: #5ba2a9;
+}
+.section-title .upper-icon-wrapper .upper-icon {
+  margin-bottom: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.feedback-form-statement {
+  padding: 6rem 0 0;
+}
+.feedback-form-title {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+.feedback-form-title h3 {
+  margin-bottom: 1.2rem;
+  font-family: 'museo_bold', sans-serif;
+  font-size: 2.5rem;
+  color: #1b1b1b;
+}
+.feedback-form-title p {
+  font-size: 1.8rem;
+}
+.feedback-form-input {
+  position: relative;
+  width: 100%;
+  padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+  border: 2px solid #d0d0d0;
+  opacity: .5;
+  color: #454545;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transitiosn: 0.3s;
+  transition: 0.3s;
+}
+.feedback-form-input::-webkit-input-placeholder {
+  color: #515151;
+  font-size: 1.5rem;
+}
+.feedback-form-input::-moz-placeholder {
+  color: #515151;
+  font-size: 1.5rem;
+}
+.feedback-form-input:-moz-placeholder {
+  color: #515151;
+  font-size: 1.5rem;
+}
+.feedback-form-input:-ms-input-placeholder {
+  color: #515151;
+  font-size: 1.5rem;
+}
+.feedback-form-input:hover {
+  opacity: 1;
+}
+.feedback-form-input:focus {
+  opacity: 1;
+}
+.feedback-form .input-user {
+  background: url("../img/shared/feedback/person-icon.svg") right 1.5rem center no-repeat;
+  background-size: 2rem;
+}
+.feedback-form .input-phone {
+  background: url("../img/shared/feedback/person-icon.svg") right 1.5rem center no-repeat;
+  background-size: 2rem;
+}
+.feedback-form .title-feedback {
+  display: block;
+}
+.feedback-form .description-feedback {
+  display: block;
+}
+.feedback-form-btn {
+  min-width: 100%;
+  padding: 1.2rem 0;
+  background-color: #5ba2a9;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.feedback-form-btn:hover {
+  background-color: #488389;
+  border-radius: 10px;
+}

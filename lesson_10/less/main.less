@@ -1,0 +1,157 @@
+// РАЗМЕР ТЕКСТА
+@fz:10px;
+@odpolpat:1.5rem;
+
+//  ШРИФТЫ
+@mr:'museo_reg', sans-serif;
+@mb:'museo_bold', sans-serif;
+
+// ЦВЕТ ТЕКСТА
+@qwer:#1b1b1b;
+@asd:#5ba2a9;
+@zxc:#515151;
+@posl:#488389;
+
+// ПОДКЛЮЧЕНИЕ IMG
+@include_img: '../img';
+
+html {
+  font-size: @fz;
+}
+body {
+  font-family: @mr;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.feedback-forms-all {
+  padding: 6rem 0 9rem 0;
+}
+.section-title {
+  margin-bottom: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: @mb;
+  font-size: 3rem;
+  color: @qwer;
+  .upper-icon-wrapper{
+  	&::before{
+  		content: '';
+	  	display: inline-block;
+		width: @odpolpat;
+	 	height: 0.1rem;
+	  	margin-bottom: 15px;
+	  	background-color: @asd;
+  	}
+  	&::after{
+  		content: '';
+	  	display: inline-block;
+		width: @odpolpat;
+	 	height: 0.1rem;
+	  	margin-bottom: 15px;
+	  	background-color: @asd;
+  	}
+  	  .upper-icon{
+	  	margin-bottom: @odpolpat;
+	  	width: 2rem;
+	  	height: 2rem;
+  	}
+  }
+}
+.feedback-form-statement {
+  padding: 6rem 0 0;
+}
+.feedback-form-title {
+  margin-bottom: 6rem;
+  text-align: center;
+  h3{
+  	margin-bottom: 1.2rem;
+	font-family: @mb;
+	font-size: 2.5rem;
+	color: @qwer;
+  }
+  p{
+  	font-size: 1.8rem;
+  }
+}
+.feedback-form-input{
+	position: relative;
+	width: 100%;
+	padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+	border: 2px solid #d0d0d0;
+	opacity: .5;
+	color: #454545;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transitiosn: 0.3s;
+	transition: 0.3s;
+	&::-webkit-input-placeholder{
+		color: @zxc;
+  		font-size: @odpolpat;
+	}
+	&::-moz-placeholder{
+		color: @zxc;
+  		font-size: @odpolpat;
+	}
+	&:-moz-placeholder{
+		color: @zxc;
+  		font-size: @odpolpat;
+	}
+	&:-ms-input-placeholder{
+		color: @zxc;
+  		font-size: @odpolpat;
+	}
+	&:hover{
+		opacity: 1;
+	}
+	&:focus{
+		opacity: 1;
+	}
+}
+.feedback-form{
+	.input-user{
+		background: url("@{include_img}/shared/feedback/person-icon.svg") right 1.5rem center no-repeat;
+  		background-size: 2rem;
+	}
+	.input-phone{
+		.input-user;
+	}
+	.title-feedback{
+		display: block;
+	}
+	.description-feedback{
+		.title-feedback;
+	}
+}
+.feedback-form-btn{
+	min-width: 100%;
+	padding: 1.2rem 0;
+	background-color: @asd;
+	text-transform: uppercase;
+	border: none;
+	color: #ffffff;
+	font-size: 1.8rem;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	&:hover{
+		background-color: @posl;
+  		border-radius: 10px;
+	}
+}
