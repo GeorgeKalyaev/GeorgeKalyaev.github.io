@@ -21,9 +21,9 @@
 
 [Урок 10](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_10 "Препроцессор LESS для CSS") - Препроцессор LESS для CSS
 
-/*****************
+[Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_11 "Сниппеты ") - Сниппеты 
 
-[Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr11 "Сниппеты ") - Сниппеты 
+/*****************
 
 [Урок 12](адрес "Анкета на GitHub") - Анкета на GitHub
 
