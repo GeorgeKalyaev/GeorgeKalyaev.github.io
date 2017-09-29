@@ -11,7 +11,7 @@
 
 /*****************
 
-[Урок 6](https://codepen.io/Kalyaev/pen/VMKGKV?editors=1100 "Позиционирование CSS") - Позиционирование CSS
+[Урок 6-1](GeorgeKalyaev.github.io/lesson_6-1/ "Позиционирование CSS") - Позиционирование CSS
 
 [Урок 7](GeorgeKalyaev.github.io/project_7/src/ "Верстка первого макета.") - Верстка первого макета.
 
