@@ -3,9 +3,9 @@
 
 [Урок 2](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_2/img "Работа с графикой для разработчика") - Работа с графикой для разработчика
 
-/*****************
+[Урок 3](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_3 "Настройка рабочего пространства") - Настройка рабочего пространства
 
-[Урок 3](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/yr3 "Настройка рабочего пространства") - Настройка рабочего пространства
+/*****************
 
 [Урок 4](https://codepen.io/Kalyaev/pen/KXzRWy?editors=1000 "Знакомство с основами HTML ") - Знакомство с основами HTML 
 
