@@ -24,3 +24,7 @@
 [Урок 11](https://github.com/GeorgeKalyaev/GeorgeKalyaev.github.io/tree/master/lesson_11 "Сниппеты ") - Сниппеты 
 
 [Урок 12](https://georgekalyaev.github.io/ "Хостинг от GitHub") - Хостинг от GitHub
+
+[Урок 13](GeorgeKalyaev.github.io/lesson_13/ "Адаптивная верстка") - Адаптивная верстка
+
+
