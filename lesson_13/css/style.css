@@ -1,0 +1,102 @@
+body{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.class{
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+  position: absolute;
+  width: 320px;
+  height: 370px;
+  box-sizing: border-box;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #cfdede;
+}
+
+.container{
+  position:relative;
+}
+
+.create{
+  position: absolute;
+  background: #01b3b3;
+  color: white;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  margin-left: 30px;
+  top: -5px;
+}
+.create p{
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.big_form{
+  display: flex;
+  flex-direction: column;
+  margin:0 30px;
+ 
+}
+
+.uname{
+  margin-top: 52px;
+}
+.username{
+  margin-bottom: 18px;
+}
+
+.input{
+  height: 30px;
+  margin-bottom: 9px;
+}
+.name_two{
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.input[type="text"]{
+  border: 1px solid #cfdede;
+  outline: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.star{
+  color: #01bebe;
+}
+
+.input[type="password"]{
+  border: 1px solid #cfdede;
+  outline: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.btn{
+  height: 45px;
+  margin-top: 26px;
+  background: #01bebe;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.two_label{
+  margin-top: 8px;
+}
+
+.free_label{
+  margin-top: 10px;
+}
