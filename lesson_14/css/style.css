@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans&subset=cyrillic');
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('../fonts/BebasNeueBold.eot');
+    src: url('../fonts/BebasNeueBold.eot') format('embedded-opentype'),
+         url('../fonts/BebasNeueBold.woff2') format('woff2'),
+         url('../fonts/BebasNeueBold.woff') format('woff'),
+         url('../fonts/BebasNeueBold.ttf') format('truetype'),
+         url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../Lato-Regular.eot');
+	src: url('../Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../Lato-Regular.woff') format('woff'),
+		url('../Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.open{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bebas{
+	font-family: 'BebasNeueBold', sans-serif;
+}
+
+.loto{
+	font-family: 'Lato', sans-serif;
+}
+
+.lobster{
+	font-family: 'Lobster';
+}
