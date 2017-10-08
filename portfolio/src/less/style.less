@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@border-color: #84c5eb;
+@border-bottom: #0e7a86;
+
+
+p{
+	margin: 0;
+}
+body{
+	background: #fff8e6;
+	font-family: Roboto;
+}
+.header{
+
+}
+
+.my{
+	&-foto{
+		img{
+			width: 100%;
+			margin-top: 2rem;
+		}
+
+		.surname{
+			font-weight: bold;
+			font-size: 3rem;
+			border-bottom: 0.3rem solid @border-bottom;
+		}
+		.namePatronymic{
+			font-size: 2rem;
+
+		}
+
+
+
+		.personal{
+			&-data{
+				font-size: 2.6rem;
+				text-transform: uppercase;
+				margin-top: 2rem;
+				font-weight: 900;
+			}
+			&-contacts{
+				margin-top: 2rem;
+				font-size: 1.5rem;
+				margin-bottom: 1rem;
+			}
+		
+		}
+	}
+}
+
+.myborder{
+	border-left: 0.3rem solid @border-color;
+	.title{
+		font-weight: 900;
+		font-size: 2.5rem;
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	li{
+		font-size: 1.5rem;
+		line-height: 2.2rem;
+		margin-left: -2rem;
+	}
+}
+
+.call{
+	color: black;
+}
+
+.dis{
+	vertical-align: middle;
+	margin-left: 1rem;
+	width: 25px;
+	height: 25px;
+}
+
+.vk:hover{
+	opacity: 0.7;
+}
+.version{
+	background: @border-color;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    a{
+	    text-decoration: none;
+	    font-size: 20px;
+	    display: block;
+    }
+}
+@media (max-width: 991px){
+	.myborder{
+		border-left: none;
+	}
+}
