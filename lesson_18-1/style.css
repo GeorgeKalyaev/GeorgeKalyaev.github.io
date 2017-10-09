@@ -145,24 +145,29 @@ body{
 	border-radius: 5px;
 	border: none;
 }
-.content-tab1{
+#content-tab1{
+	position: relative;
+}
+
+#content-tab2{
 	position: relative;
 }
 
 .mybtn{
-	border:none;
-	position: absolute;
-	margin-left: 305px;
-	outline: none;
-	background: url("img/shape_ribbon.png");
-	width: 12%;
-	color: white;
-	font-size: 2.3rem;
-	height: 4%;
-	margin-top: 30px;
+    border: none;
+    position: absolute;
+    outline: none;
+    right: -46px;
+    background: url(img/shape_ribbon.png);
+    width: 129px;
+    color: white;
+    font-size: 2.3rem;
+    height: 36px;
+    margin-top: 30px;
 }
 
-.mybtn img{
-	width: 500px;
-	height: 500px;
+.img{
+	position: absolute;
+    right: -46px;
+    bottom: -2px;
 }
