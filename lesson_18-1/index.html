@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>задание 18-1</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="tabs">
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1" title="Вкладка 1">Вход</label>
+   
+      <input id="tab2" type="radio" name="tabs">
+      <label for="tab2" title="Вкладка 2">Регистрация</label>
+
+
+      <section id="content-tab1">
+        <form>
+          <div class="myFormOne form-group">
+      
+            <input class="myinput" type="text" class="form-control" id="inputEmail" placeholder="Ваше имя">
+          </div>
+          <div class="myFormTwo form-group">
+            
+            <input class="myinput" type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+          </div>
+          <p class="savePass">Забыли пароль?</p>
+
+          <label class="mylabel">
+              <input type="checkbox"> Напомнить мне
+          </label>
+     
+          <button type="submit" class="mybtn ">Войти</button>
+        </form>
+      </section>  
+      <section id="content-tab2">
+          <form>
+                    <div class="myFormOne form-group">
+                
+                      <input class="myinput" type="text" class="form-control" id="inputEmail" placeholder="Ваше имя">
+                    </div>
+                    <div class="myFormTwo form-group">
+                      
+                      <input class="myinput" type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+                    </div>
+                   
+
+                    <label class="mylabel">
+                        <input type="checkbox"> Напомнить мне
+                    </label>
+               
+                    <button type="submit" class="mybtn ">ОК</button>
+                  </form>
+      </section> 
+
+     
+  </div>
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- js-файлы для модальных окон -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
