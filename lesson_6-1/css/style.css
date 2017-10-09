@@ -1,27 +1,173 @@
- .head{
-  background: black;
-  height: 60px;
-   width: 100%;
-   position: fixed;
-   left: 0;
-   top:0;
+body{
+	background: #ccc;
+}
+/* Базовый контейнер табов */
+.tabs {
+	min-width: 320px;
+	max-width: 630px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/* Стили секций с содержанием */
+.tabs>section {
+	display: none;
+	padding: 15px;
+	background-color: #000000;
+	border: 23px solid #1f95bb;
+	border-radius: 5px;
+	padding: 0rem 6rem 1rem 5rem;
+}
+.tabs>section>p {
+	margin: 0 0 5px;
+	line-height: 1.5;
+	color: #383838;
+	/* прикрутим анимацию */
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Прячем чекбоксы */
+.tabs>input {
+	display: none;
+	position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 5px 25px;
+	font-weight: 200;
+	text-align: center;
+	color: #000;
+	border: 0px solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	background: #ffffff;
+	border-radius: 3px 3px 0 0;
+	font-size: 1.7rem;
+	cursor: pointer;
+	border: none;
+	margin-left: 1.5rem;
+}
+// background-image: linear-gradient(to top, #0494bf 0%, #03a6dc 100%);
+
+/* Изменения стиля переключателей вкладок при наведении */
+ .tab1{
+ 	margin-left: 2rem;
+ }
+.tabs>label:hover {
+	color: #888;
+	cursor: pointer;
+}
+/* Стили для активной вкладки */
+.tabs>input:checked+label {
+	color: white;
+	border-bottom: 1px solid #0494bf;
+	background-image: linear-gradient(to top, #0494bf 0%, #03a6dc 100%)
+}
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+	display: block;
+}
+/* Убираем текст с переключателей 
+* и оставляем иконки на малых экранах
+*/
+ 
+// @media screen and (max-width: 680px) {
+// 	.tabs>label {
+// 		font-size: 0;
+// 	}
+// 	.tabs>label:before {
+// 		margin: 0;
+// 		font-size: 18px;
+// 	}
+// }
+/* Изменяем внутренние отступы 
+*  переключателей для малых экранов
+*/
+@media screen and (max-width: 400px) {
+	.tabs>label {
+		padding: 15px;
+	}
 }
 
-.head-ul li {
-  list-style: none;
-  display: inline-block;
-  
-}
-.mar-top{
-  
-  margin-top: 70px;
-}
-.head-ul li a{
-  color: white;
-  text-decoration: none;
-  margin: 0px 20px 0px 20px;
+.myFormOne{
+	margin-top: 5rem;
 }
 
-.head-ul li a:hover{
-  color: red;
+.myFormTwo{
+	margin-top: 3rem;
+}
+
+.savePass{
+	margin-top: 2rem;
+	color:  #a91717;
+	margin-left: 1.5rem;
+}
+
+.mylabel{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	color: #6f6d6d;
+	margin-left: 1.5rem;
+}
+
+.myinput{
+	height: 6rem;
+	outline: none;
+	width: 100%;
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+
+	padding-left: 20px;
+	background: url("img/shape.png") center no-repeat;
+	border-radius: 5px;
+	border: none;
+}
+#content-tab1{
+	position: relative;
+}
+
+#content-tab2{
+	position: relative;
+}
+
+.mybtn{
+    border: none;
+    position: absolute;
+    outline: none;
+    right: -46px;
+    background: url(img/shape_ribbon.png);
+    width: 129px;
+    color: white;
+    font-size: 2.3rem;
+    height: 36px;
+    margin-top: 30px;
+}
+
+.img{
+	position: absolute;
+    right: -46px;
+    bottom: -2px;
 }
