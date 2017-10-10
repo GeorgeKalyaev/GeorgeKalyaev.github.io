@@ -1,5 +1,6 @@
 body{
-	background: #ccc;
+	background: url(img/fon.png);
+	background-size: 100%;
 }
 /* Базовый контейнер табов */
 .tabs {
@@ -147,10 +148,12 @@ body{
 }
 #content-tab1{
 	position: relative;
+	min-height: 378px;
 }
 
 #content-tab2{
 	position: relative;
+	min-height: 378px;
 }
 
 .mybtn{
@@ -165,6 +168,10 @@ body{
     z-index: 100;
     height: 36px;
     margin-top: 30px;
+}
+
+.btntwo{
+	margin-top: 65px;
 }
 
 .img{
