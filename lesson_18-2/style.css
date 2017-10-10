@@ -1,4 +1,6 @@
-
+body{
+	background: url(img/fon.png);
+}
 .answers{
 	text-transform: uppercase;
 	font-weight: 700;
