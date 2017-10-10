@@ -276,6 +276,11 @@ section {
   background-size: 100%;
   vertical-align: middle;
 }
+.order {
+  height: 6rem;
+  width: 19rem;
+  font-size: 1.5rem;
+}
 /* Оформление модальных окон */
 .popup {
   display: none;
