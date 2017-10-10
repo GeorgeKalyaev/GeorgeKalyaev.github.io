@@ -245,6 +245,7 @@ section {
 .price-block h4 {
   margin: 3rem 0;
   font-size: 1.9rem;
+  min-height: 4rem;
   font-family: 'ProximaNova_bolt', sans-serif;
 }
 .price-block img {
