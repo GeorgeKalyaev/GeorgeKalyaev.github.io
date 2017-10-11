@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>задание 18-1</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="tabs">
+      <input id="tab1" type="radio" name="tabs" checked>
+      <label for="tab1" title="Вкладка 1">Вход</label>
+   
+      <input id="tab2" type="radio" name="tabs">
+      <label for="tab2" title="Вкладка 2">Регистрация</label>
+
+
+      <section id="content-tab1">
+        <form>
+          <div class="myFormOne form-group">
+      
+            <input class="myinput animated fadeInUp" type="text" class="form-control" id="inputEmail" placeholder="Ваше имя">
+          </div>
+          <div class="myFormTwo form-group">
+            
+            <input class="myinput animated fadeInUp" type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+          </div>
+          <a href="#" class="href animated fadeInUp">Забыли пароль?</a>
+
+          <label class="mylabel ">
+              <input  type="checkbox"> Напомнить мне
+          </label>
+     
+          <button type="submit" class="mybtn animated fadeInUp">Войти</button>
+          <img class="img animated fadeInUp" src="img/2.png" alt="">
+        </form>
+      </section>  
+      <section id="content-tab2">
+          <form>
+                    <div class="myFormOne form-group">
+                
+                      <input class="myinput animated pulse" data-wow-duration="2s" data-wow-delay="5s" type="text"  id="inputEmail" placeholder="Ваше имя">
+                    </div>
+                    <div class="myFormTwo form-group">
+                      
+                      <input class="myinput animated pulse" type="password" id="inputPassword" placeholder="Пароль">
+                    </div>
+                   
+
+                    <label class="mylabel ">
+                        <input type="checkbox"> Напомнить мне
+                    </label>
+               
+                    <button type="submit" class="mybtn btntwo">ОК</button>
+                    <img class="img" src="img/2.png" alt="">
+                  </form>
+      </section> 
+
+     
+  </div>
+<!-- <div class="box">
+       sd
+     </div> -->
+<script src="https://raw.githubusercontent.com/matthieua/WOW/master/dist/wow.min.js"></script>
+<script>
+  var wow = new WOW;
+  wow.init();
+</script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- js-файлы для модальных окон -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
