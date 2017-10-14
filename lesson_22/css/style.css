@@ -1,0 +1,59 @@
+// *{
+// 	border: 1px solid black;
+// }
+body{
+	margin: 0;
+}
+
+.map{
+	position: relative;
+}
+
+.text-decoration{
+	position: absolute;
+	top: 0;
+	background: #c60b0b;
+	height: 100%;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	color: #f0bebe;
+	margin-left: 2rem;
+
+}
+.phone{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.text-decoration a{
+	color: #f0bebe;
+	text-decoration: underline;
+}
+
+.text-logo{
+	margin-left: 1.5rem;
+	font-size: 16px;
+	color: black;
+}
+.logo{
+	display: flex;
+}
+.duble_phone{
+	font-size: 22px;
+	font-weight: 600;
+	color: black;
+}
+.sertificat{
+	font-size: 14px;
+	color: #666666;
+}
+.adres{
+	font-size: 14px;
+	color: black;
+}
+
+.center{
+	min-height: 10rem;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
