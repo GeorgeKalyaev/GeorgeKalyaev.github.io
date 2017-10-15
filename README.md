@@ -59,7 +59,7 @@
 
 [Урок 20 Практика Часть 8](GeorgeKalyaev.github.io/lesson_20_praktica_8/src/ "Доверстали блок с отзывами.") -  Доверстали блок с отзывами.
 
-[Урок 21]( "Parallax эффект для сайта.") - Parallax эффект для сайта. НЕ ГОТОВО
+[Урок 21](GeorgeKalyaev.github.io/lesson_21/ "Parallax эффект для сайта.") - Parallax эффект для сайта.
 
 [Урок 21 Практика Часть 9](https://georgekalyaev.github.io/lesson_21_praktica_9/src/ "Верстаем схему работы и все включено.") - Верстаем схему работы и все включено.
 
