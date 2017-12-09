@@ -1,0 +1,1262 @@
+/* Fonts family */
+@font-face {
+  font-family: 'HelveticaNeueCyr_Bl';
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot');
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_Med';
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot');
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_Black';
+  src: url('../fonts/HelveticaNeueCyr-Black.eot');
+  src: url('../fonts/HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Black.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr_Rm';
+  src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+  src: url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.bold {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.cyr {
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.black {
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+/* Colors */
+/* Basic setting */
+html {
+  font-size: 10px;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+button {
+  outline: none;
+}
+/* Базовые кнопки */
+.button {
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #fefafa;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0px 1px 2px #578f22;
+  border-radius: 3px;
+  background-color: #95c62c;
+  border: none;
+}
+.button:hover {
+  background-color: #75a024;
+  color: #ffffff;
+}
+/* Гланый экран */
+.main {
+  background: url(../img/header/main-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.main-header {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main .phone .call {
+  display: block;
+}
+.main-wrap {
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.main .logo-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -3.5rem;
+}
+.main .logo p {
+  display: inline-block;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+}
+.main .phone {
+  text-align: center;
+}
+.main .phone-number {
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 2.4rem;
+}
+.main .phone-call {
+  color: #94ca2d;
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.main-content {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+.main-content .header-boxshadow h1 {
+  text-shadow: 1px 3px 0px #272b25;
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.main-content .header-boxshadow p {
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.main-content .main_btn {
+  margin-top: 2rem;
+}
+.main-vrbox img {
+  width: 120%;
+  margin-top: 3rem;
+}
+.main-dinosower img {
+  width: 100%;
+}
+/* Секкция 2  information_vr*/
+.information_vr {
+  background: url(../img/what_is-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.information_vr-content {
+  padding: 10rem 0;
+}
+.information_vr-header h2 {
+  font-size: 3.4rem;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+.information_vr-header p {
+  font-size: 1.6rem;
+  color: #000000;
+  line-height: 26px;
+  margin-top: 3rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.information_vr-equipment_two h3 {
+  font-size: 2rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.information_vr-equipment_two ul {
+  padding: 0;
+  margin: 0;
+}
+.information_vr-img img {
+  width: 100%;
+}
+.information_vr .equipment-price {
+  display: inline-block;
+  font-size: 2.2rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #b61919;
+}
+.information_vr .equipment-panel {
+  font-size: 1.8rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.information_vr .equipment-category {
+  min-height: 10rem;
+}
+.information_vr .equipment-category p {
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+.information_vr .information_vr_btn {
+  margin-top: 2rem;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 4px 0px 0px #76ae0c;
+          box-shadow: 0px 4px 0px 0px #76ae0c;
+  font-size: 1.7rem;
+  text-shadow: 0px 1px 2px #578f22;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.bottom_line {
+  background: url(../img/details/line.png) 0 0 no-repeat;
+  height: 5px;
+  background-size: cover;
+  width: 100%;
+  margin-top: -1rem;
+}
+/* секция 3 детальная информация */
+.detailed_information {
+  padding: 7rem 0;
+}
+.detailed_information .container {
+  position: relative;
+}
+.detailed_information-img img {
+  width: 100%;
+}
+.detailed_information .media {
+  margin-top: 5rem;
+}
+.detailed_information .media-body p {
+  font-size: 1.5rem;
+  color: #000000;
+}
+.detailed_information .media-heading {
+  font-size: 2rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #000000;
+}
+.detailed_information .features-img img {
+  width: 90%;
+}
+/* секция 4 Закажите VR BOX II прямо сейчас */
+.ordering {
+  padding: 4rem 0;
+  background: url(../img/order/bg-order.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+.ordering .section-header_light h2 {
+  font-size: 3.3rem;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+  color: #ffffff;
+}
+.ordering .section-header_light .cooperation {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #18a7d0;
+  width: 100%;
+  height: 100%rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+.ordering .section-header_light .cooperation .item_cooperation {
+  position: absolute;
+  top: 0;
+  right: -1.5rem;
+}
+.ordering .media {
+  margin-top: 3rem;
+}
+.ordering .media-heading {
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.5rem;
+}
+.ordering .form {
+  background-color: #040000;
+  padding: 2rem 5rem;
+  text-align: center;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.ordering .form h3 {
+  font-size: 1.9rem;
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.ordering .form input {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.ordering .form button {
+  padding: 2rem;
+  width: 100%;
+  font-size: 1.8rem;
+  text-shadow: 0px 1px 2px #578f22;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.ordering .form .callback {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+/* секция 5 */
+.detailed_information-none {
+  padding: 0;
+}
+.detailed_information .media_section_four {
+  margin-top: 4rem;
+}
+.detailed_information-add_pading {
+  padding: 7rem 0;
+}
+.media_section_four_simulation {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.media_section_four_simulation h3 {
+  font-size: 2rem;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.media_section_four_simulation p {
+  font-size: 1.5rem;
+  color: #000000;
+}
+.features-img img {
+  width: 90%;
+}
+/* секция 6 Как это работает */
+.work {
+  background: url(../img/works/work-content-bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+.work .work_wrap .container .section-header h2 {
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+  font-size: 3.5rem;
+}
+.work .work_wrap .container .section-header .line {
+  background-color: #18a7d0;
+  height: 5px;
+  margin: 0 auto;
+  width: 5.5rem;
+  margin-top: 1rem;
+}
+.work .work_wrap .content .circle {
+  margin-top: -2rem;
+  display: inline-block;
+  background: #18a7d0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.work .work_wrap .content .circle-border {
+  font-size: 1.9rem;
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+  color: #ffffff;
+  padding: 0.3rem;
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  border: 2px solid #18a7d0;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.work .work_wrap .content .row {
+  margin-top: 6rem;
+}
+.work .work_wrap .content .thumbnail {
+  min-height: 30rem;
+  border: none;
+  background-color: inherit;
+  text-align: center;
+}
+.work .work_wrap .content .thumbnail img {
+  height: 12rem;
+}
+.work .work_wrap .content .thumbnail p {
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+  font-size: 1.4rem;
+}
+.work .work_wrap .content .thumbnail .caption p {
+  font-size: 1.3rem;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+/* секция 7 Совместимость очков*/
+.align {
+  overflow-x: hidden;
+  background-color: white;
+}
+.align .content .row {
+  margin-top: 7rem;
+}
+.align .content .thumbnail {
+  border: none;
+  background-color: inherit;
+}
+.align .content .thumbnail h3 {
+  margin-top: 0rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.8rem;
+}
+.align .content .thumbnail h4 {
+  margin-top: 3.5rem;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.7rem;
+}
+.align .content .thumbnail .caption h3 {
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.9rem;
+}
+.align .content .thumbnail .caption h4 {
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.6rem;
+}
+.align .section-header h2 {
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+/* Секция 8 Видео */
+.video {
+  overflow-x: hidden;
+  background: url(../img/video/bg.jpg) -15rem 0 no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.video-img {
+  margin-bottom: 2rem;
+}
+.video .content {
+  text-align: center;
+}
+.video .content .section-header_light h2 {
+  color: #ffffff;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+}
+.video .content .section-header_light a {
+  text-decoration: none;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 2rem;
+  color: #fefafa;
+}
+.video .content .view-btn {
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 2rem;
+  color: #fefafa;
+  background-color: transparent;
+  border: none;
+}
+.video .content .view-btn :focus {
+  outline: none;
+  border: none;
+}
+.video .content .modal-title {
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+  font-size: 3.5rem;
+}
+/*	Секция 9  Более 100 игр и приложений для VR BOX II */
+.application_wrap {
+  padding: 6rem 0;
+  background-color: #fcfcf6;
+}
+.application_wrap .section-header {
+  text-align: center;
+}
+.application_wrap .section-header h2 {
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+.application_wrap .section-header .line {
+  background-color: #18a7d0;
+  height: 5px;
+  margin: 0 auto;
+  width: 5.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.application_wrap .content .thumbnail {
+  text-align: left;
+  border: none;
+  background-color: inherit;
+}
+.application_wrap .content .thumbnail h3 {
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 2rem;
+}
+.application_wrap .content .thumbnail p {
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  color: #000000;
+  font-size: 1.4rem;
+}
+.application_wrap .content .thumbnail .img1 {
+  margin-top: 3rem;
+}
+.application_wrap .content .thumbnail .img2 {
+  margin-top: 5rem;
+}
+.application_wrap .content .thumbnail .img3 {
+  margin-top: 3rem;
+}
+.application_wrap .content .gamesbtn {
+  font-size: 1.5rem;
+}
+.application_wrap .content .application_btn {
+  width: 22%;
+}
+.button_line {
+  background: url(../img/details/line.png) 0 0 no-repeat;
+  height: 5px;
+  background-size: cover;
+  width: 100%;
+  margin-top: -1rem;
+}
+/* Секция 10 Отзывы довольных клиентов */
+.reviews {
+  background-color: #f8f8f0;
+  padding: 6rem 0;
+}
+.reviews .container {
+  position: relative;
+}
+.reviews .content {
+  border-radius: 3px;
+  margin-top: 1rem;
+  padding: 1.8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+  border: 2px solid #3eb7b7;
+}
+.reviews .content img {
+  width: 100%;
+}
+.reviews .content .content h4 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.reviews .content .content a {
+  width: 6rem;
+}
+.reviews .media-heading {
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.8rem;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.reviews .reviews_description {
+  margin-top: 2rem;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+}
+.reviews .section-header h2 {
+  text-align: center;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+.reviews .section-header .line {
+  background-color: #18a7d0;
+  height: 5px;
+  margin: 0 auto;
+  width: 5.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+}
+/* Секция 11 Как мы работаем */
+.specs {
+  position: relative;
+  padding: 6rem 0;
+  background-color: #fcfcf6;
+}
+.specs .section-header {
+  text-align: center;
+}
+.specs .section-header h2 {
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+.specs .section-header .line {
+  background-color: #18a7d0;
+  height: 5px;
+  margin: 0 auto;
+  width: 5.5rem;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+}
+.specs .content .row {
+  margin-top: 8rem;
+}
+.specs .content .thumbnail {
+  text-align: center;
+  border: none;
+  background-color: inherit;
+}
+.specs .content .thumbnail p {
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.6rem;
+}
+/* Секция 12 Закажите VR BOX II прямо сейчас */
+.new_bg_foto_ordering {
+  overflow-x: hidden;
+  padding: 4rem 0;
+  background: url(../img/order2/bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+/* Секция 13  Остались вопросы? */
+.questions {
+  padding: 2.5rem 0;
+}
+.questions-remained {
+  text-align: center;
+}
+.questions-remained h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Black', sans-serif;
+}
+.questions-remained a {
+  text-align: center;
+  color: #1a1820;
+  border-bottom: 1px dotted #1a1820;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr_Med', sans-serif;
+  font-size: 1.8rem;
+}
+/* footer */
+.bg_footer {
+  background-color: #000000;
+  background-image: none;
+}
+/* декор  */
+.crystal_blue_position {
+  position: relative;
+  margin-right: 0;
+}
+.work_wrap {
+  position: relative;
+}
+.crystal_green_position {
+  position: relative;
+  margin-right: 0;
+}
+.crystal_green_large img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -10rem;
+  margin-top: 2rem;
+}
+.crystal_purple_full img {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  margin-right: 0rem;
+}
+.crystal_purple img {
+  position: absolute;
+  right: 0;
+  bottom: -10rem;
+}
+.crystal_green img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 13.5rem;
+}
+.crystal_purple_left img {
+  position: absolute;
+  left: 0;
+  bottom: -5rem;
+}
+.crystal_blue img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 2.5rem;
+}
+/* Оформление модальных окон */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  max-width: 345px;
+  margin: 0 auto;
+  background-color: #040000;
+  padding: 2rem 4rem;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.popup input {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.popup h4 {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.popup p {
+  color: #ffffff;
+}
+.popup .my_adap_btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+/** попап заказать  */
+.popup-order {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-order-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  max-width: 345px;
+  margin: 0 auto;
+  background-color: #040000;
+  padding: 2rem 4rem;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.popup-order-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-order-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-order-content {
+  text-align: center;
+}
+.popup-order-header {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.popup-order input {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.popup-order h4 {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.popup-order p {
+  color: #ffffff;
+}
+.popup-order .my_adap_btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+/* попап менеджер */
+.popup-manager {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-manager-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  max-width: 345px;
+  margin: 0 auto;
+  background-color: #040000;
+  padding: 2rem 4rem;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.popup-manager-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-manager-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-manager-content {
+  text-align: center;
+}
+.popup-manager-header {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.popup-manager input,
+.popup-manager textarea {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.popup-manager h4 {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.popup-manager p {
+  color: #ffffff;
+}
+.popup-manager .my_adap_btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+/* ВИДЕО  */
+.popup-watch {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-watch-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #040000;
+  padding: 2rem 4rem;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.popup-watch-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-watch-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-watch-content {
+  text-align: center;
+}
+.popup-watch-header {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.popup-watch input,
+.popup-watch textarea {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.popup-watch h4 {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.popup-watch p {
+  color: #ffffff;
+}
+.popup-watch .my_adap_btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+/*  попап комплектация  */
+.popup-choice {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-choice-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  max-width: 345px;
+  margin: 0 auto;
+  background-color: #040000;
+  padding: 2rem 4rem;
+  border: 4px solid #25a0ac;
+  border-radius: 0.5rem;
+}
+.popup-choice-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-choice-close {
+  position: absolute;
+  top: -2.5rem;
+  right: 0rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #ffffff;
+}
+.popup-choice-content {
+  text-align: center;
+}
+.popup-choice-header {
+  font-family: 'HelveticaNeueCyr_Bl', sans-serif;
+}
+.popup-choice input,
+.popup-choice textarea,
+.popup-choice select,
+.popup-choice option {
+  font-size: 1.5rem;
+  color: #fefafa;
+  border-radius: 3px;
+  background-color: #040000;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  border: 2px solid white;
+  font-family: 'HelveticaNeueCyr_Rm', sans-serif;
+}
+.popup-choice h4 {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+.popup-choice p {
+  color: #ffffff;
+}
+.popup-choice .my_adap_btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+/* Медиа запросы */
+@media (max-width: 1199px) {
+  .crystal_green img {
+    display: none;
+  }
+  .crystal_blue img {
+    display: none;
+  }
+  .crystal_purple img {
+    display: none;
+  }
+  .crystal_purple_left img {
+    display: none;
+  }
+  .crystal_purple_full img {
+    display: none;
+  }
+}
+@media (max-width: 1386px) {
+  .crystal_green_large img {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .work {
+    min-height: 901px;
+  }
+  .ordering-form {
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .main .phone-call {
+    margin-left: 1rem;
+  }
+  .main .phone-number {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 703px) {
+  .main-content .header-boxshadow h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 590px) {
+  .main_btn {
+    padding: 2rem 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .information_vr .information_vr_btn {
+    font-size: 1.4rem;
+    padding: 2rem 1rem;
+  }
+}
+@media (max-width: 545px) {
+  .main .logo p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  .main-content .header-boxshadow h1 {
+    font-size: 1.8rem;
+  }
+  .main-content .header-boxshadow p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 519px) {
+  .ordering .section-header_light h2 {
+    font-size: 2.7rem;
+  }
+  .cooperation {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .item_cooperation img {
+    display: none;
+  }
+}
+@media (max-width: 512px) {
+  .main-dinosower img {
+    margin-top: 4rem;
+  }
+  .main_btn {
+    padding: 2rem 1rem;
+  }
+}
+@media (max-width: 485px) {
+  .work {
+    min-height: 940px;
+  }
+}
+@media (max-width: 475px) {
+  .main-dinosower img {
+    margin-left: 4rem;
+  }
+  .main-content .main_btn {
+    z-index: 120;
+  }
+  .main-dinosower {
+    z-index: 15;
+  }
+  .questions-remained h2 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 414px) {
+  .reviews .media-heading {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 405px) {
+  .align .section-header h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 391px) {
+  .main .logo p {
+    font-size: 1.1rem;
+  }
+  .main .logo-img img {
+    width: 66px;
+    height: 38px;
+  }
+  .information_vr-header h2 {
+    font-size: 2.5rem;
+  }
+  .ordering .form button {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .ordering .form {
+    padding: 2rem 3rem;
+  }
+  .work .work_wrap .container .section-header h2 {
+    font-size: 2.8rem;
+  }
+  .reviews .content img {
+    width: 66%;
+  }
+  .reviews .media-heading {
+    margin-left: 0;
+  }
+  .media-left,
+  .media > .pull-left {
+    padding-right: 0;
+  }
+  .ordering .media-heading {
+    margin-left: 1rem;
+  }
+  .media-body {
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .ordering .media-heading {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 379px) {
+  .work {
+    min-height: 1000px;
+  }
+  .main-dinosower img {
+    margin-top: 4rem;
+  }
+  .main-content .header-boxshadow h1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 356px) {
+  .reviews .content {
+    padding: 1.2rem;
+  }
+  .reviews .media-heading {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 367px) {
+  .main .phone-number {
+    font-size: 1.5rem;
+  }
+  .main .phone-call {
+    font-size: 1.5rem;
+  }
+  .main_btn {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .reviews .section-header h2 {
+    font-size: 2.4rem;
+  }
+  .ordering .section-header_light h2 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 324px) {
+  .ordering .form h3 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 630px) {
+  .popup-content {
+    width: 80%;
+  }
+}
+@media (max-width: 369px) {
+  .popup-content {
+    padding: 4rem 3rem;
+  }
+}
+@media (max-width: 320px) {
+  .popup-content {
+    padding: 1.5rem 3rem;
+  }
+}
+@media (max-width: 425px) {
+  .popup-content {
+    padding: 2rem 2rem;
+  }
+  .my_adap_btn {
+    padding: 2rem 2rem;
+  }
+}
